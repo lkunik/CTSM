@@ -1346,7 +1346,7 @@ contains
       avg_dayspyr = get_average_days_per_year()
 
       ! specify rain threshold for leaf onset
-      rain_threshold = 20._r8
+      rain_threshold = 1._r8
 
       do fp = 1,num_soilp
          p = filter_soilp(fp)
